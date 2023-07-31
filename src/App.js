@@ -43,10 +43,10 @@ function App() {
             <div className={`app-bg ${theme}`}>
                 <div className={`app ${theme}`}>
                     <nav className="nav-menu">
-                        <Link to="/login">
+                        <Link to="/">
                             <button
                                 type="button"
-                                className={`page-btn ${location.pathname === '/login' ? 'active' : ''}`}>
+                                className={`page-btn ${location.pathname === '/' ? 'active' : ''}`}>
                                 Login
                             </button>
                         </Link>
@@ -68,7 +68,7 @@ function App() {
                         </button>}
                     </nav>
                     <Routes>
-                        <Route path="/login" element={<LoginPage countries={countries} />} />
+                        <Route path="/" element={<LoginPage countries={countries} />} />
                         <Route path="/registration" element={<RegistrationPage countries={countries} />} />
                     </Routes>
                 </div>
