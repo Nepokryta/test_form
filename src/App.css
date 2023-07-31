@@ -24,10 +24,11 @@ h1 {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    padding: 70px 0 100px;
 }
 
 .nav-menu {
-    padding: 60px 0 30px;
+    padding-bottom: 30px;
 }
 
 .form-group {
