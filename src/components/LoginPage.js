@@ -26,6 +26,9 @@ function LoginPage({ countries }) {
             setAllUsers(true);
         } else {
             setShowError(true);
+            setTimeout(() => {
+                setShowError(false);
+            }, 5000);
         }
     };
 
